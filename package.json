@@ -1,0 +1,24 @@
+{
+    "name": "tp-test-gestión-js",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "TP universitario: Gestión de la configuración del software",
+    "main": "src/script.js",
+    "scripts": {
+        "start": "node src/script.js",
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --runInBand"
+    },
+    "keywords": [
+        "jest",
+        "testing",
+        "unit-tests",
+        "cli",
+        "todo",
+        "education"
+    ],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "jest": "^29.7.0"
+    }
+}
